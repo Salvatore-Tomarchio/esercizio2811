@@ -1,0 +1,57 @@
+.amazonLink {
+    color: red;
+    background-color: grey;
+}
+
+.pointerImage {
+    cursor: pointer;
+}
+
+#primoTitolo{
+    text-align: center;
+}
+
+.liste{
+    border: solid 2px black;
+}
+
+.titoloProdotti{
+    text-align: center;
+}
+
+.prodotti{
+    display: inline;
+    margin: 0 30px;
+    height: 120px;
+    width: 150px;
+}
+
+.descrizione{
+    display: inline;
+    text-align: center;
+    width: 152px;
+    height: 120px;
+    margin: 0 70px;
+}
+
+.prezzo{
+    display: inline;
+    margin: 30px;
+}
+
+#nomeNegozio{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+}
+
+#nomeFooter{
+    display: inline-block;
+    padding: 20px 100px;
+}
+
+#indirizzo{
+    display: inline-block;
+}

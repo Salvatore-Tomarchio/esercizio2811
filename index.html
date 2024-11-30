@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New My Store</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="function.js"></script>
+</head>
+<body>
+    <header>
+        <h1 id="primoTitolo">Salvo techstore</h1>
+    </header>
+    <main>
+        <button onclick="cambiaNome()">Cambia Nome Negozio</button>
+        <button onclick="cambiaColorePagina()">Cambia Colore</button>
+        <button onclick="nuovoIndirizzo()">Vieni a Trovarci nel nuovo Negozio</button>
+        <button onclick="modificaVis()">Modifica i link Amazon</button>
+        <button onclick="aggPointerImm()">Per Cursor</button>
+        <button onclick="randomColor()">Prezzi Colorati</button>
+        <table>
+            <tr>
+                <td class="liste">
+                    <h3 class="titoloProdotti">SMARTPHONE</h3>
+                    <img class="prodotti" src="vimal-krishnattri-aLmvxNAJw6A-unsplash.jpg" alt="SMARTPHONE">
+                    <p class="descrizione">Ottime prestazioni, fotocamera da 48 MP, batteria di lunga durata, display da 6". Disponibile Nero o Bianco.</p>
+                    <p class="prezzo">259.99$</p>
+                    <a href="https://www.amazon.it/Samsung-Smartphone-espandibile-Batteria-Versione/dp/B0CN12K224/ref=sr_1_13?dib=eyJ2IjoiMSJ9.5X8fpfgWwhPv-Y_aI00AJaIFgVfN6RkpBslJxwMw2SP28tqAy_nAF8DFNd0QRTYwUkXi-WAIKW_uC4v8_3UnwoEWKbiXK8lvtvXuP9FOnFlrJrZUHPP_TgUTloUf8HGvmiWbWaS7PpbmTgid30E5sk2PkbabYkfdv4xrPokMd78x4mO_MmEVikXNdboooDvx5JHWHHlrVhX8f2DC6g2T0eQjdk5SEH66RIXk-H9CB_CCheAwHq9mRAqLMychHLd76FoutEY1L3yNz_BjgjjzdZayroyw7_6CU9UGO-hXFLE.D3CuCYEoda9lp7llKwDwR7Jlg0ZpjgaZFwnk3qCSUTc&dib_tag=se&keywords=smartphone&nsdOptOutParam=true&qid=1732958235&sr=8-13">Compralo subito!</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="liste">
+                    <h3 class="titoloProdotti">TABLET</h3>
+                    <img class="prodotti" src="jess-bailey-94Ld_MtIUf0-unsplash.jpg" alt="TABLET">
+                    <p class="descrizione">Ottime prodotto, fotocamera da 12 MP, batteria di lunga durata, display Retina da 10,5". Disponibile Argento, Grigio e Nero.</p>
+                    <p class="prezzo">299.95$</p>
+                    <a href="https://www.amazon.it/Lenovo-Display-7040mAh-MediaTek-Esclusiva/dp/B0CQT997ZP/ref=sr_1_5?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=37VDSC4A30ZSN&dib=eyJ2IjoiMSJ9.cuMv0t3UFV9TjP2MDjA9rJU_AWDKSOeufn_7tebf4mgWTVp-cE5duhs_UQKaUVX8hJoZQMIw44V-O0xu0pZhFi1EVzeaxrvboxuHY6L5921BJ5FSFhNYiQSEP0Zo_x39DWaFQgF9AdarnNfmZMaH4vLsdtiRELAS2dy1pfVLOB0N99tA7dSuOvDFCZp0Ya9Uew4rJ8Fk44yMlRIvpfpRBztnbdcdG90RvU_4I1-6VHvO6iZDuA40WtfValh341H2y7CGMA9H3pdqeE4hdO-1Wdkf8vZF6FrWJ68EvkTJvzo.zxtAO5lSmge0Dwadb2QfJlu5Hd2XBHXVoxVanAhAbWI&dib_tag=se&keywords=tablet&nsdOptOutParam=true&qid=1732958150&s=pc&sprefix=tablet%2Ccomputers%2C166&sr=1-5">Compralo subito!</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="liste">
+                    <h3 class="titoloProdotti">PC NOTEBOOK</h3>
+                    <img class="prodotti" src="gene-bautista-BCLyHnC8Prk-unsplash.jpg" alt="PC">
+                    <p class="descrizione">Alte prestazioni, processore Intel i7, batteria di lunga durata, 16 GB di RAM, SSD. Disponibile Argento o Nero.</p>
+                    <p class="prezzo">499.90$</p>
+                    <a href="https://www.amazon.it/ASUS-Vivobook-B086ZRTQH5-Notebook-Anti-Glare/dp/B086ZRTQH5/ref=sxin_35_pa_sp_search_thematic_sspa?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&content-id=amzn1.sym.ea48cac8-c4fb-47b5-bd35-bf533f3322f7%3Aamzn1.sym.ea48cac8-c4fb-47b5-bd35-bf533f3322f7&crid=VWGS0MU27DJB&cv_ct_cx=pc+asus&dib=eyJ2IjoiMSJ9.XUL_otDObNt6Kn1lHMx4wtcLP1BzjAqq202K540znwAzO8lL5R5do6JlJdoQ2gej.KM-OlMGkyNq7XpU7PedRvfevqonu3u5Ln4YWbNxiqqo&dib_tag=se&keywords=pc+asus&nsdOptOutParam=true&pd_rd_i=B086ZRTQH5&pd_rd_r=ad321f18-b1b7-414e-9f99-48c829b604c0&pd_rd_w=jjKGh&pd_rd_wg=mnNJN&pf_rd_p=ea48cac8-c4fb-47b5-bd35-bf533f3322f7&pf_rd_r=01FV2JN723HDXP1PWPXV&qid=1732957487&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=pc+asus%2Caps%2C186&sr=1-4-da050f4d-60ed-4d5b-91d9-dbfa7be05b60-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM&psc=1">Compralo subito!</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="liste">
+                    <h3 class="titoloProdotti">KEYBOARD</h3>
+                    <img class="prodotti" src="kenny-eliason-4kjcmPhsGkc-unsplash.jpg" alt="KEYBOARD">
+                    <p class="descrizione">Design ergonomico, tasti silenziosi, retroilliminabili, connessione wireless Bluetooth. Disponibile Bianco o Nero.</p>
+                    <p class="prezzo">9.80$</p>
+                    <a href="https://www.amazon.it/Dierya-Interruttori-DK61se-Retroilluminazione-Anti-Ghosting%EF%BC%88Layout/dp/B0B4W52FN5/ref=sr_1_14?crid=1HVMFC4KUC4O2&dib=eyJ2IjoiMSJ9.Exy6n2_EvBG6ARiN_760KpFXZt2X0Oc4fLegyD0aiGQIaRrOnrH-zSgczBgQVoXpHjxuMBx15fB8enLaCFujdqY3QzNjVxEhjlvQ8ZcVbNodVYLRGlDJGdqhMK74Yv3AJ_wt029G130IdDuSz_udORwrUiQ46sQqOYW7gLpGx_Rr6lhDY7phrCd9lbH_wWzof-YTuC6xqnD9fFmSHPC9EKl9ghXpZ0yecXtxaYEpjknMqQvzaBKQ3fTrArr7i0apvTSxBjHsmd48iiEdbCspo-r3tYVrsi3mnYY7-c7sg00.Ud8rszPSQWU-yYbVLXxXCw-VyPlWOKneT3y2NNmfiyM&dib_tag=se&keywords=keyboard&nsdOptOutParam=true&qid=1732957313&sprefix=key%2Caps%2C134&sr=8-14">Compralo subito!</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="liste">
+                    <h3 class="titoloProdotti">MOUSE</h3>
+                    <img class="prodotti" src="kelly-sikkema-K5dAn1gOFEc-unsplash.jpg" alt="MOUSE">
+                    <p class="descrizione">Design ergonomico, sensore ottico, ottima batteria, retroilluminazione RGB. Disponibile Nero.</p>
+                    <p class="prezzo">8$</p>
+                    <a href="https://www.amazon.it/AmazonBasics-Mouse-wireless-ergonomico-regolabili/dp/B0787D6SGQ/ref=sr_1_1_ffob_sspa?crid=2DWVP0A97SKNX&dib=eyJ2IjoiMSJ9.gDTuFy3pJRmYgF-N1Qa3LxzNkZu9vMwSvxL3g6rTl-cMSFWCDLP7coJPanZDxJOIlgUtyAGGBcPETFEBw6UGVkW_GoYH4-S8OAB1G9wfQODaNG39l0KQ0GNTdbQaKmFzN09q4fd76sl-w3zfXB7NBnr2G1rmoj_YxdyPhjrrZzhC5mzTSVYfL0UWkWVRtGiYm1Hw3q8nzXRPK_4fMWEjMTuL6BaCaNoTXqMvtElxHeX4lNj67CNeUPaPypweopZ7FRrzGS3C9okcihb_sJhDpQxaf-LoaKF6kdJWnvkIpUs.-6KVFKyLT95WeyteGjXuCVZwfvowcO9wtM2dYj9GktQ&dib_tag=se&keywords=mouse+wireless&nsdOptOutParam=true&qid=1732909135&sprefix=mouse%2Caps%2C131&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">Compralo subito!</a>
+                </td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        <div id="nomeNegozio">
+            <h3 id="nomeFooter">Salvo techstore</h3>
+            <p id="indirizzo">Via della nazionale,59  Mascalucia(CT)</p>
+            <textarea id="#" placeholder="Scrivi il tuo feedback..."></textarea>
+        </div>
+    </footer>
+</body>
+</html>
